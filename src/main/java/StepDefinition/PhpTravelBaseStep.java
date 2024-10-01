@@ -15,6 +15,7 @@ public class PhpTravelBaseStep {
     public void iAmOnTheFlightSearchPage() throws InterruptedException {
         WebDriver driver = WebDriverManager.chromedriver().create();
         driver.get("https://www.phptravels.net/");
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         phpTravelsBasePage = new PhpTravelsBasePage(driver);
 

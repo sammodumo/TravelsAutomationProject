@@ -80,7 +80,7 @@ public class PhpTravelsBasePage {
         departDate.click();
         departDate.clear();
         departDate.sendKeys("01-12-2023");
-        departDate.sendKeys(org.openqa.selenium.Keys.RETURN);
+//        departDate.sendKeys(org.openqa.selenium.Keys.RETURN);
     }
 
     public void searchIcon()
